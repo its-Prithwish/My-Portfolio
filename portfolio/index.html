@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design</title>
+    <!--box icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--custom header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+     <!--home section design-->
+     <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Prithwish Kundu</h1>
+            <h3>And I'm a <span  class="multiple-text"></span></h3>
+            <p>A 3rd year Computer Science undergraduate with good problem solving skills and ability to performwell in a team.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/prithwish.kundu.9674/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/its_prithwish_/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/prithwish-kundu-894698213/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/its-Prithwish"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="E:\portfolio\Prithwish's Resume.pdf" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="images/home.jpg" alt="">
+        </div>
+     </section>
+
+     <!--about section design-->
+
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span> Me</span></h2>
+            <h3>Education</h3>
+            <p>I am a 4th year undergraduate persuing Computer Science from Academy Of Technology. My CGPA till 5th Semester is 9.2</p>
+            <p>I did my 12th or WBHSE from Hijuli Sikshaniketan High School and scored 84% on aggregate.</p>
+            <p>I completed my 10th or WBBSE from Springdale High School and scored 75% on aggregate.</p>
+        </div>
+     </section>
+    
+     <!--services section design-->
+     <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxl-html5'></i>
+                <h3>Web Development</h3>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>Reactjs</p>
+                <p>MySQL</p>
+                <p>BootStrap</p>
+              <!--  <a href="#" class="btn">Read More</a>  -->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-brain'></i>
+                <h3>Machine Learning</h3>
+                <p>Python</p>
+                <p>scikit-learn</p>
+                <p>Tensorflow</p>
+                <p>Streamlit</p>
+              <!--   <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Programming Languages / Tools</h3>
+                <p>C / C++</p>
+                <p>Java</p>
+                <p>GitHub</p>
+                <p>VS Code</p>
+                <p>Jupyter Notebook</p>
+              
+                <!-- <a href="#" class="btn">Read More</a>  -->
+            </div>
+        </div>
+     </section>
+
+     <!--portfolio section design-->
+     <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span> Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Diabetes Prediction</h4>
+                    <p>Diabetes Mellitus is one of the common disease worldwide and keeps increasing everyday due to changing lifestyles, unhealthy food habits and over weight problems. To solve the problem I tried to develop a Diabetes prediction system that give near about 78% accuracy.</p>
+                    <a href="https://github.com/its-Prithwish/DiabetesDiseasePrediction.git"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Breast Cancer Prediction</h4>
+                    <P>Breast cancer is considered one of the most common cancers in women caused by various clinical, lifestyle and economic factors. To solve this problem I tried to develop a prediction system using Decision Tree Algorithm and got 92% accuracy. </P>
+                    <a href="https://github.com/its-Prithwish/Breast_Cancer_App.git"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>My Portfolio</h4>
+                    <P>Made my portfolio using HTML CSS and JavaScript. </P>
+                    <a href="https://github.com/its-Prithwish/Portfolio.git"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            
+     </section>
+
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span> Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message9"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+     </section>
+
+     <!--footer design-->
+
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Prithwish | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home" class=""><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+     </footer>
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>     
+
+
+    <!--typed js-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+     <!--custom js-->
+     <script src="js/script.js"></script>
+     
+</body>
+</html>
+
